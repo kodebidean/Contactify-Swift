@@ -1,0 +1,22 @@
+# Ignorar carpetas de construcción
+build/
+DerivedData/
+
+# Ignorar datos de usuario de Xcode
+*.xcuserdata
+*.xcworkspace
+
+# Ignorar archivos de Scheme
+xcshareddata/
+xcuserdata/
+
+# Ignorar archivos generados automáticamente por el sistema operativo
+.DS_Store
+
+# Ignorar archivos de configuración de estado del módulo
+*.swp
+*.lock
+
+# Ignorar registros de depuración
+*.log
+

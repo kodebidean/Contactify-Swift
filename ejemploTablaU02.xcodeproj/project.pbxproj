@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C24F19DC2CE5E45500ABBAF7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C24F19DB2CE5E45500ABBAF7 /* README.md */; };
+		C24F19DE2CE5EDA800ABBAF7 /* ColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F19DD2CE5EDA800ABBAF7 /* ColeccionViewController.swift */; };
+		C24F19E22CE5F2A200ABBAF7 /* CeldaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F19E12CE5F2A200ABBAF7 /* CeldaCollectionViewCell.swift */; };
 		C28B959B2CE5923700B8BE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B959A2CE5923700B8BE53 /* AppDelegate.swift */; };
 		C28B959D2CE5923700B8BE53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B959C2CE5923700B8BE53 /* SceneDelegate.swift */; };
 		C28B959F2CE5923700B8BE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B959E2CE5923700B8BE53 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		C24F19DB2CE5E45500ABBAF7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C24F19DD2CE5EDA800ABBAF7 /* ColeccionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColeccionViewController.swift; sourceTree = "<group>"; };
+		C24F19E12CE5F2A200ABBAF7 /* CeldaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCollectionViewCell.swift; sourceTree = "<group>"; };
 		C28B95972CE5923700B8BE53 /* ejemploTablaU02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejemploTablaU02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28B959A2CE5923700B8BE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C28B959C2CE5923700B8BE53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				C28B95A82CE5923800B8BE53 /* Info.plist */,
 				C28B95AE2CE599E200B8BE53 /* Contacto.swift */,
 				C2CE8E4C2CE5C46D00E88C5F /* DetalleViewController.swift */,
+				C24F19DD2CE5EDA800ABBAF7 /* ColeccionViewController.swift */,
+				C24F19E12CE5F2A200ABBAF7 /* CeldaCollectionViewCell.swift */,
 			);
 			path = ejemploTablaU02;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24F19DE2CE5EDA800ABBAF7 /* ColeccionViewController.swift in Sources */,
 				C28B95AF2CE599E200B8BE53 /* Contacto.swift in Sources */,
+				C24F19E22CE5F2A200ABBAF7 /* CeldaCollectionViewCell.swift in Sources */,
 				C2CE8E4D2CE5C46D00E88C5F /* DetalleViewController.swift in Sources */,
 				C28B959F2CE5923700B8BE53 /* ViewController.swift in Sources */,
 				C28B959B2CE5923700B8BE53 /* AppDelegate.swift in Sources */,
